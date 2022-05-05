@@ -29,8 +29,5 @@ function caesarCipher(str, offset){
     return encryptedString;
 }
 
-// let string = prompt("Enter the string");
-// let shift = prompt("Enter the number by which letters are to be shifted");
-// console.log("Caesar Cipher for given string is " + caesarCipher(string, shift));
 console.log("Caesar Cipher for given string is " + caesarCipher("Veerangana", 1));
 
